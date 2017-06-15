@@ -286,8 +286,8 @@
 \def\ps@ieej{\let\@mkboth\@gobbletwo
  \def\@oddfoot{\@LB
   \rlap{\Small\normalfont
-   \copyright\ \f@YEAR\ The Institute of Electrical Engineers of Japan.}\hfil
-  {\nombre@font \thepage}\hfil
+    \hspace{1pt}}\hfil% \copyright\ \f@YEAR\ The Institute of Electrical Engineers of Japan.}\hfil
+  {\nombre@font \hspace{1pt}}\hfil % \hspace{1pt} was \thepage 
   \@RB}%
  \let\@evenfoot\@oddfoot
  \def\@evenhead{\@LH
