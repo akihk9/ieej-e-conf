@@ -779,7 +779,7 @@
    \hfill\vbox to 8.5mm{\hrule height .4mm
     \hbox to 18mm{%
      \vrule width .4mm height 7.5mm
-      \hss\raise2.25mm\hbox{\LARGE\bfseries\if@letter Letter\else Paper\fi}\hss
+      \hss\raise2.25mm\hbox{\LARGE\bfseries\if@letter Letter\else \hspace{1pt} \fi}\hss
      \vrule width .4mm height 7.5mm}%
    \hrule height .4mm}\hspace*{\@ZW}%
    \vskip3mm
