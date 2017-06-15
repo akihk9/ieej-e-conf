@@ -378,10 +378,11 @@
 \def\ieejhead@etal{\ \textit{et al.}}
 
 \def\output@head@author{%
- ({\@header@author
-   \ifnum\@totalnumber=\@ne\else
-    \ieejhead@etal
-   \fi})%
+% ({\@header@author
+%   \ifnum\@totalnumber=\@ne\else
+%    \ieejhead@etal
+%   \fi})%
+\hspace{1pt} % This line was added and above 4 lines are comment out manually 
 }
 
 \def\d@jtitle[#1]#2{%
