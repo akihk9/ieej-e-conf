@@ -329,9 +329,9 @@
 
 \def\ps@IEEJ{\let\@mkboth\@gobbletwo
  \def\@evenfoot{\@LB
-  \hfil{\nombre@font \thepage}\hfil
+  \hfil{\nombre@font \hspace{1pt}}\hfil %  \hspace{1pt} was \thepage
   \llap{\foot@font 
-   IEEJ Trans.\ \e@FIELD, Vol.\@VOL, No.\@NO, \f@YEAR\hskip3.25mm
+   \hspace{1pt}\hskip3.25mm%IEEJ Trans.\ \e@FIELD, Vol.\@VOL, No.\@NO, \f@YEAR\hskip3.25mm
   }%
   \@RB}%
  \let\@oddfoot\@evenfoot
@@ -776,13 +776,13 @@
 \def\@makeenglishtitle{%
  \setbox\@tempboxa\hbox{%
   \begin{minipage}{\textwidth}
-   \hfill\vbox to 8.5mm{\hrule height .4mm
+   \hfill\vbox to 8.5mm{\hrule height 0mm%.4mm to 0mm
     \hbox to 18mm{%
-     \vrule width .4mm height 7.5mm
+     \vrule width 0mm height 7.5mm %.4mm to 0mm
       \hss\raise2.25mm\hbox{ \hspace{1pt} } %\hbox{\LARGE\bfseries\if@letter Letter\else \hspace{1pt} \fi} %% \hspace{1pt} was Paper
       \hss 
-     \vrule width .4mm height 7.5mm}%
-   \hrule height .4mm}\hspace*{\@ZW}%
+     \vrule width 0mm height 7.5mm}%%.4mm to 0mm
+   \hrule height 0mm}\hspace*{\@ZW}%%.4mm to 0mm
    \vskip3mm
    {\huge\centering
     \@jtitle\par
