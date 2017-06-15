@@ -1,0 +1,52 @@
+       ####################################################
+       ### Class file for the transactions of the IEEJ  ###
+       ####################################################
+
+                                                               March 15 2011
+
+This package contains some documents for formatting your paper 
+for submission to the IEEJ transactions. 
+
+Included files:
+  readme.1st:        this file
+  ieej-e.cls:        class file
+  readme.tex:        how to use the class file
+  readme.pdf:        pdf file
+  ex-sum.tex:        how to typeset "Extended Summary"
+  template.tex:      template file
+
+To install: 
+  1. Copy ieej-e.cls, readme.tex, template.tex and ex-sum.tex (if needed) 
+     to your working directory. 
+  2. You may rename template.tex to paper.tex, for example. 
+  3. Compile readme.tex by the LaTeX2e formats to get information on 
+     how to use the class file. 
+     And compile ex-sum.tex to get information of how to typeset 
+     "Extended Summary", if you need. 
+
+File Notes: 
+  1. The current version of ieej-e.cls is v2.0 (2011/03/15). 
+  2. The design of the ieej-e.cls is based on LaTeX2e. 
+     Use the LaTeX2e formats, LaTeX 2.09 has been obsolete for many years now. 
+  3. readme.tex is itself an example of the ieej-e.cls in action. 
+  4. These files are tested by the following: 
+       This is pdfeTeXk, Version 3.141592-1.21a-2.2 (Web2C 7.5.4)
+     on linux 2.6.24.5-85.fc8 (FederaCore 8).
+
+Printing Notes: 
+  If you print a manuscript on A4 paper by using 
+  dvips printer driver, the following parameter might be set. 
+    dvips -Pprinter -t a4 -O 0in,0in file.dvi
+  "printer" is a name of your printer
+
+To Authors: 
+  General questions about the TeX and LaTeX should be referred 
+  to manuals or books. 
+  Send any bug reports of the class file 
+  to the below e-mail address. 
+
+                                 E-mail: teppei@uls.co.jp (Motoaki Sato)
+                                 ULS & Company, Tokyo, Japan
+				 Asanuma Daini Bldg. 2F, 3-21-10 
+				 Hongo Bunkyo-ku, Tokyo 113-0033, Japan
+				 TEL:+81-3-5803-9803 / FAX:+81-3-5803-9804
