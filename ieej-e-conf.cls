@@ -307,9 +307,9 @@
   \raise2mm\hbox{%
   \tabcolsep\z@
   \begin{tabular}[b]{l}
-   IEEJ Transactions on \csname Einfo@\@FIELD\endcsname\\[-.5mm]
-   Vol.\@VOL\ No.\@NO\ pp.\the\c@page--\pageref{ieej@lastpage}\hskip5.5mm
-    DOI: 10.1541/ieej\csname DOIinfo@\@FIELD\endcsname.\@VOL.\the\c@page
+   \hspace{1pt}\\[-.5mm]%IEEJ Transactions on \csname Einfo@\@FIELD\endcsname\\[-.5mm]
+   \hspace{1pt}\hskip5.5mm%Vol.\@VOL\ No.\@NO\ pp.\the\c@page--\pageref{ieej@lastpage}\hskip5.5mm
+   \hspace{1pt}% DOI: 10.1541/ieej\csname DOIinfo@\@FIELD\endcsname.\@VOL.\the\c@page
   \end{tabular}%
   }}}%
 }
@@ -779,7 +779,8 @@
    \hfill\vbox to 8.5mm{\hrule height .4mm
     \hbox to 18mm{%
      \vrule width .4mm height 7.5mm
-      \hss\raise2.25mm\hbox{\LARGE\bfseries\if@letter Letter\else \hspace{1pt} \fi}\hss
+      \hss\raise2.25mm\hbox{ \hspace{1pt} } %\hbox{\LARGE\bfseries\if@letter Letter\else \hspace{1pt} \fi} %% \hspace{1pt} was Paper
+      \hss 
      \vrule width .4mm height 7.5mm}%
    \hrule height .4mm}\hspace*{\@ZW}%
    \vskip3mm
