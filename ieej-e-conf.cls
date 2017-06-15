@@ -291,11 +291,11 @@
   \@RB}%
  \let\@evenfoot\@oddfoot
  \def\@evenhead{\@LH
-  \hbox to \z@{\hbox to \textwidth{\leaders\hrule height.12mm\hfil}\hss}%
+  \hbox to \z@{\hbox to \textwidth{\leaders\hrule height.0mm\hfil}\hss}%height.12mm
   \ieej@info\hfil
   \@RH}%
  \def\@oddhead{\@LH
-  \hbox to \z@{\hbox to \textwidth{\leaders\hrule height.12mm\hfil}\hss}%
+  \hbox to \z@{\hbox to \textwidth{\leaders\hrule height.0mm\hfil}\hss}%height.0mm
   \ieej@info\hfil
   \@RH}%
 }
@@ -336,11 +336,11 @@
   \@RB}%
  \let\@oddfoot\@evenfoot
  \def\@evenhead{\@LH
-  \hbox to \z@{\hbox to \textwidth{\leaders\hrule height.12mm\hfil}\hss}%
+  \hbox to \z@{\hbox to \textwidth{\leaders\hrule height.0mm\hfil}\hss}%height.12mm to 0mm
   \hfil\smash{\raise 3mm\hbox{\small \head@title}}\hfil
   \@RH}%
  \def\@oddhead{\@LH
-  \hbox to \z@{\hbox to \textwidth{\leaders\hrule height.12mm\hfil}\hss}%
+  \hbox to \z@{\hbox to \textwidth{\leaders\hrule height.0mm\hfil}\hss}%height.12mm to omm
   \hfil\smash{\raise 3mm\hbox{\small \head@title}}\hfil
   \@RH}%
 }
