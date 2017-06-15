@@ -1,3 +1,15 @@
+ieej-e-conf.cls provides suitable formatting for IEEJ conf. proceedings in English
+https://pdfwww.gakkai-web.net/gakkai/eiss/temp/eiss_template_en.pdf
+
+Any comments are welcome
+
+akao@neuron.t.u-tokyo.ac.jp
+Akihiko Akao
+
+Below is readme.1st for ieej-e.cls
+
+---------------------------------------------------------------------------
+
        ####################################################
        ### Class file for the transactions of the IEEJ  ###
        ####################################################
